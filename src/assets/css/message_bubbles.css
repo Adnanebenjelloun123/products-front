@@ -1,0 +1,772 @@
+/* {
+    box-sizing: border-box; 
+    box-sizing: border-box;
+
+} 
+
+html  {
+    outline: 0!important;
+    outline-color: initial !important;
+    outline-style: initial !important;
+    outline-width: 0px !important;
+
+}*/
+
+.slideout .slideout-body { 
+    flex: 1; 
+    padding: 1px 20px; 
+    z-index: 2; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 0%; 
+    padding-top: 1px; 
+    padding-right: 20px; 
+    padding-bottom: 1px; 
+    padding-left: 20px; 
+    z-index: 2;
+
+} 
+
+.progress-mask-content { 
+    transition: .3s ease all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease; 
+    transition-delay: 0s; 
+    transition-property: all;
+
+} 
+
+.progress-mask > .progress-mask-content { 
+    z-index: 1; 
+    z-index: 1;
+
+} 
+
+.progress-loader-container { 
+    min-height: 40px; 
+    min-height: 40px;
+
+} 
+
+.progress-mask { 
+    position: relative; 
+    position: relative;
+
+} 
+
+.container-fluid { 
+    margin-right: auto; 
+    margin-left: auto; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    padding-left: 15px; 
+    padding-right: 15px;
+
+} 
+
+.container-fluid { 
+    margin: 0 auto; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 0px; 
+    margin-left: auto; 
+    padding-left: 20px; 
+    padding-right: 20px;
+
+} 
+
+@media (min-width: 900px){ 
+  .container-fluid { 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px;
+
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container-fluid { 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-left: 40px; 
+    padding-right: 40px;
+
+  } 
+}     
+
+.app-page-content { 
+    height: 100%; 
+    height: 100%;
+
+} 
+
+@media (min-width: 900px){ 
+  .app-page-content { 
+    margin-left: 60px; 
+    margin-left: 60px;
+
+  } 
+}     
+
+@media (min-width: 900px){ 
+  .app-page-content.app-page-content--expanded { 
+    margin-left: 200px; 
+    margin-left: 200px;
+
+  } 
+}     
+
+.app-page { 
+    min-height: 100%; 
+    min-height: 100%;
+
+} 
+
+.app-layout { 
+    background-color: #F1F4F1; 
+    background-color: rgb(241, 244, 241);
+
+} 
+
+.app-layout-interactions { 
+    background-color: #fff; 
+    background-color: rgb(255, 255, 255);
+
+}
+
+.interactions-layout .interactions-detail > .message-list-container  { 
+    margin-top: 20px; 
+    width: 100%; 
+    background-color: #F8F9F8; 
+    border-radius: 2px; 
+    padding: 10px 10px 20px 10px; 
+    display: -ms-flexbox; 
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 20px; 
+    width: 100%; 
+    background-color: rgb(248, 249, 248); 
+    border-top-left-radius: 2px; 
+    border-top-right-radius: 2px; 
+    border-bottom-right-radius: 2px; 
+    border-bottom-left-radius: 2px; 
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 20px; 
+    padding-left: 10px; 
+    display: flex; 
+    flex-direction: column;
+
+} 
+
+:after,:before { 
+    box-sizing: border-box; 
+    box-sizing: border-box;
+
+} 
+
+.message-wrapper { 
+    width: 80%; 
+    max-width: 500px; 
+    padding: 10px; 
+    width: 80%; 
+    max-width: 500px; 
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 10px;
+
+} 
+
+.message-wrapper.left { 
+    align-self: flex-start; 
+    padding-left: 0; 
+    align-self: flex-start; 
+    padding-left: 0px;
+
+} 
+
+.message-wrapper.right { 
+    align-self: flex-end; 
+    padding-right: 0; 
+    align-self: flex-end; 
+    padding-right: 0px;
+
+} 
+
+.message-wrapper .message-container .details  { 
+    display: -ms-flexbox; 
+    display: flex; 
+    width: 100%; 
+    display: flex; 
+    width: 100%;
+
+} 
+
+[class^="icon-"] { 
+    font-family: icomoon!important; 
+    speak: none; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-variant: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    display: inline-block; 
+    speak: none; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-variant-ligatures: normal; 
+    font-variant-caps: normal; 
+    font-variant-numeric: normal; 
+    font-variant-east-asian: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    display: inline-block; 
+    font-family: icomoon !important;
+
+} 
+
+.message-wrapper.left .icon-container  { 
+    order: 1; 
+    order: 1;
+
+} 
+
+.message-wrapper .message-container .details .icon-container  { 
+    margin-top: 33px; 
+    display: -ms-flexbox; 
+    display: flex; 
+    min-width: 14px; 
+    margin-top: 33px; 
+    display: flex; 
+    min-width: 14px;
+
+} 
+
+.message-wrapper.left .other-container  { 
+    order: 2; 
+    order: 2;
+
+} 
+
+.message-wrapper .message-container .details .other-container  { 
+    flex: 1; 
+    max-width: calc(100% - 50px); 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 0%; 
+    max-width: calc(100% - 50px);
+
+} 
+
+.message-wrapper.right .icon-container  { 
+    order: 2; 
+    order: 2;
+
+} 
+
+.message-wrapper.right .other-container  { 
+    order: 1; 
+    order: 1;
+
+} 
+
+[class*=" icon-"] { 
+    font-family: icomoon!important; 
+    speak: none; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-variant: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    display: inline-block; 
+    speak: none; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-variant-ligatures: normal; 
+    font-variant-caps: normal; 
+    font-variant-numeric: normal; 
+    font-variant-east-asian: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    display: inline-block; 
+    font-family: icomoon !important;
+
+} 
+
+.message-wrapper.left .icon  { 
+    border: 2px solid #67C18E; 
+    border-top-width: 2px; 
+    border-right-width: 2px; 
+    border-bottom-width: 2px; 
+    border-left-width: 2px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(103, 193, 142); 
+    border-right-color: rgb(103, 193, 142); 
+    border-bottom-color: rgb(103, 193, 142); 
+    border-left-color: rgb(103, 193, 142); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial;
+
+} 
+
+.message-wrapper .message-container .details .icon-container .icon  { 
+    overflow: hidden; 
+    width: 30px; 
+    height: 30px; 
+    margin: 0 10px; 
+    border-radius: 30px; 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    width: 30px; 
+    height: 30px; 
+    margin-top: 0px; 
+    margin-right: 10px; 
+    margin-bottom: 0px; 
+    margin-left: 10px; 
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 30px;
+
+} 
+
+.message-wrapper.left .date  { 
+    text-align: left; 
+    text-align: left;
+
+} 
+
+.message-wrapper .message-container .details .other-container .date  { 
+    margin: 5px 7px; 
+    color: #899795; 
+    font-size: 12px; 
+    line-height: 18px; 
+    margin-top: 5px; 
+    margin-right: 7px; 
+    margin-bottom: 5px; 
+    margin-left: 7px; 
+    color: rgb(137, 151, 149); 
+    font-size: 12px; 
+    line-height: 18px;
+
+} 
+
+.message-wrapper .message-container .details .other-container .options  { 
+    display: -ms-flexbox; 
+    display: flex; 
+    justify-content: flex-end; 
+    flex-flow: row wrap; 
+    padding: 10px 0; 
+    margin-right: -5px; 
+    display: flex; 
+    justify-content: flex-end; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    padding-top: 10px; 
+    padding-right: 0px; 
+    padding-bottom: 10px; 
+    padding-left: 0px; 
+    margin-right: -5px;
+
+} 
+
+.message-wrapper.right .icon  { 
+    background-color: transparent; 
+    border-radius: 0; 
+    background-color: transparent; 
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+    border-bottom-left-radius: 0px;
+
+} 
+
+.message-wrapper.right .date  { 
+    text-align: right; 
+    text-align: right;
+
+} 
+
+.message-wrapper.right .content  { 
+    display: -ms-flexbox; 
+    display: flex; 
+    justify-content: flex-end; 
+    display: flex; 
+    justify-content: flex-end;
+
+} 
+
+.message-wrapper .message-container .message  { 
+    background-color: #fff; 
+    border-radius: 20px; 
+    box-shadow: -1px 2px 30px rgba(17,54,84,.03); 
+    padding: 10px 14px; 
+    display: inline-block; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    max-width: 100%; 
+    background-color: rgb(255, 255, 255); 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    box-shadow: rgba(17, 54, 84, 0.03) -1px 2px 30px; 
+    padding-top: 10px; 
+    padding-right: 14px; 
+    padding-bottom: 10px; 
+    padding-left: 14px; 
+    display: inline-block; 
+    overflow-wrap: break-word; 
+    max-width: 100%;
+
+} 
+
+.task-icon { 
+    width: 100%; 
+    height: auto; 
+    padding-bottom: 100%; 
+    border-radius: 2px; 
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    padding-bottom: 100%; 
+    border-top-left-radius: 2px; 
+    border-top-right-radius: 2px; 
+    border-bottom-right-radius: 2px; 
+    border-bottom-left-radius: 2px; 
+    position: relative;
+
+} 
+
+.message-wrapper .message-container .details .icon-container .icon .task-icon  { 
+    border-radius: 30px; 
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 30px;
+
+} 
+
+.message-wrapper.right .message  { 
+    background-color: #6F5FE8; 
+    color: #fff; 
+    background-color: rgb(111, 95, 232); 
+    color: rgb(255, 255, 255);
+
+} 
+
+.message-wrapper .message-container .details .other-container .options .option  { 
+    border: solid 1px #00B2CC; 
+    border-radius: 20px; 
+    color: #00B2CC; 
+    display: inline-block; 
+    padding: 7px; 
+    margin: 5px; 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(0, 178, 204); 
+    border-right-color: rgb(0, 178, 204); 
+    border-bottom-color: rgb(0, 178, 204); 
+    border-left-color: rgb(0, 178, 204); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    color: rgb(0, 178, 204); 
+    display: inline-block; 
+    padding-top: 7px; 
+    padding-right: 7px; 
+    padding-bottom: 7px; 
+    padding-left: 7px; 
+    margin-top: 5px; 
+    margin-right: 5px; 
+    margin-bottom: 5px; 
+    margin-left: 5px;
+
+} 
+
+.__react_component_tooltip { 
+    border-radius: 3px; 
+    display: inline-block; 
+    font-size: 13px; 
+    left: -999em; 
+    opacity: 0; 
+    padding: 8px 21px; 
+    position: fixed; 
+    pointer-events: none; 
+    transition: opacity 0.3s ease-out; 
+    top: -999em; 
+    visibility: hidden; 
+    z-index: 999; 
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px; 
+    border-bottom-left-radius: 3px; 
+    display: inline-block; 
+    font-size: 13px; 
+    left: -999em; 
+    opacity: 0; 
+    padding-top: 8px; 
+    padding-right: 21px; 
+    padding-bottom: 8px; 
+    padding-left: 21px; 
+    position: fixed; 
+    pointer-events: none; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease-out; 
+    transition-delay: 0s; 
+    transition-property: opacity; 
+    top: -999em; 
+    visibility: hidden; 
+    z-index: 999;
+
+} 
+
+.__react_component_tooltip.type-dark { 
+    color: #fff; 
+    background-color: #222; 
+    color: rgb(255, 255, 255); 
+    background-color: rgb(34, 34, 34);
+
+} 
+
+.__react_component_tooltip.place-top { 
+    margin-top: -10px; 
+    margin-top: -10px;
+
+} 
+
+.__react_component_tooltip:before,.__react_component_tooltip:after { 
+    content: ""; 
+    width: 0; 
+    height: 0; 
+    position: absolute; 
+    content: ""; 
+    width: 0px; 
+    height: 0px; 
+    position: absolute;
+
+} 
+
+.__react_component_tooltip.place-top:before { 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    bottom: -8px; 
+    left: 50%; 
+    margin-left: -10px; 
+    border-left-width: 10px; 
+    border-left-style: solid; 
+    border-left-color: transparent; 
+    border-right-width: 10px; 
+    border-right-style: solid; 
+    border-right-color: transparent; 
+    bottom: -8px; 
+    left: 50%; 
+    margin-left: -10px;
+
+} 
+
+.__react_component_tooltip.place-top:after { 
+    border-left: 8px solid transparent; 
+    border-right: 8px solid transparent; 
+    bottom: -6px; 
+    left: 50%; 
+    margin-left: -8px; 
+    border-left-width: 8px; 
+    border-left-style: solid; 
+    border-left-color: transparent; 
+    border-right-width: 8px; 
+    border-right-style: solid; 
+    border-right-color: transparent; 
+    bottom: -6px; 
+    left: 50%; 
+    margin-left: -8px;
+
+} 
+
+.__react_component_tooltip.type-dark.place-top:after { 
+    border-top-color: #222; 
+    border-top-style: solid; 
+    border-top-width: 6px; 
+    border-top-color: rgb(34, 34, 34); 
+    border-top-style: solid; 
+    border-top-width: 6px;
+
+} 
+
+.message-wrapper .message-container .message > .ellipsis  { 
+    position: relative; 
+    overflow: hidden; 
+    max-height: 80px; 
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    max-height: 80px;
+
+} 
+
+.message-wrapper .message-container .message :first-child  { 
+    margin-top: 0; 
+    margin-top: 0px;
+
+} 
+
+.message-wrapper .message-container .message :last-child  { 
+    margin-bottom: 0; 
+    margin-bottom: 0px;
+
+} 
+
+.message-wrapper .message-container .message > .ellipsis:after  { 
+    content: ""; 
+    background: linear-gradient(to bottom,rgba(255,255,255,0),#FFF 100%); 
+    text-align: right; 
+    position: absolute; 
+    top: 60px; 
+    right: 0; 
+    width: 100%; 
+    height: 20px; 
+    content: ""; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-repeat-x: initial; 
+    background-repeat-y: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial; 
+    text-align: right; 
+    position: absolute; 
+    top: 60px; 
+    right: 0px; 
+    width: 100%; 
+    height: 20px;
+
+} 
+
+img { 
+    border: 0; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial;
+
+} 
+
+img { 
+    vertical-align: middle; 
+    vertical-align: middle;
+
+} 
+
+img { 
+    width: 100%; 
+    height: auto; 
+    width: 100%; 
+    height: auto;
+
+} 
+
+.task-icon img  { 
+    border-radius: 2px; 
+    height: auto; 
+    position: absolute; 
+    margin: auto; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    border-top-left-radius: 2px; 
+    border-top-right-radius: 2px; 
+    border-bottom-right-radius: 2px; 
+    border-bottom-left-radius: 2px; 
+    height: auto; 
+    position: absolute; 
+    margin-top: auto; 
+    margin-right: auto; 
+    margin-bottom: auto; 
+    margin-left: auto; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px;
+
+} 
+
+.task-icon.svg img  { 
+    width: 100%; 
+    width: 100%;
+
+} 
+
+.message-wrapper .message-container .details .icon-container .icon img  { 
+    border-radius: 30px; 
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 30px;
+
+} 
+
+.message-wrapper.right .message > .ellipsis:after  { 
+    background: linear-gradient(to bottom,rgba(111,95,232,0),#6F5FE8 100%); 
+    background-image: linear-gradient(rgba(111, 95, 232, 0), rgb(111, 95, 232) 100%); 
+    background-position-x: initial; 
+    background-position-y: initial; 
+    background-size: initial; 
+    background-repeat-x: initial; 
+    background-repeat-y: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    background-color: initial;
+
+} 
+
+/*
+p { 
+    margin: 0 0 10px; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 10px; 
+    margin-left: 0px;
+
+}*/

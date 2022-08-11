@@ -23,7 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+table{
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow-x: scroll !important;
+}
 .App-link {
   color: #61dafb;
 }
